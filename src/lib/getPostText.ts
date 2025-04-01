@@ -10,11 +10,7 @@ export default async function getPostText() {
 
   // get rid of empty strings (used for formatting)
   array = array.filter(function(n){ return n.length > 0});
-  
-  // get rid of headers e.g. title, chapter, preface, etc.
-  // i used '#' to identify these
-  array = array.filter(function(n){ return !n.startsWith("#")});
-  
+   
   // choose one of the lines...
   var x = Math.floor(Math.random() * array.length);
   var line = array[x];
