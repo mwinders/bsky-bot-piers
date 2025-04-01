@@ -1,4 +1,4 @@
-This bot is inspired by the [Moby Dick bot](https://bsky.app/profile/mobydickatsea.bsky.social), and is built from [template code](https://github.com/philnash/bsky-bot) provided by [@philnash](https://github.com/philnash. Work in progress.
+This bot is inspired by the [Moby Dick bot](https://bsky.app/profile/mobydickatsea.bsky.social), and is built from [template code](https://github.com/philnash/bsky-bot) provided by @philnash. Work in progress.
 # Build your own Bluesky bot 🦋
 
 This is a template repo for building [Bluesky](https://bsky.app/) bots that post on their own schedule. It uses [TypeScript](https://www.typescriptlang.org/) to build the bot and [GitHub Actions](https://docs.github.com/en/actions) to schedule the posts.
